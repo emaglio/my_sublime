@@ -1,2 +1,2 @@
 # my_sublime
-My sublime settings
+My sublime settings and snippets
