@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+run ${1:Operation} do |op| 
+  return redirect_to ${2:where?}
+end
+
+render
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>runop</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>
