@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-module ${1:name} 
+module ${1:name}
   ${2:}
-end
+end # module $1
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>module</tabTrigger>

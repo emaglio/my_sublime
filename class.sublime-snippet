@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-class ${1:name} 
+class ${1:name}
   ${2:}
-end
+end # class $1
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>class</tabTrigger>
