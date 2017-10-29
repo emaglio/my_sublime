@@ -2,7 +2,7 @@
   <content><![CDATA[
 class ${1:name}
   ${2:}
-end # class $1
+end
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>class</tabTrigger>
