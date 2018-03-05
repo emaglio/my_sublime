@@ -1,0 +1,27 @@
+// SublimeLinter Settings - User
+{
+  "debug": true,
+
+  "linters": {
+    "rubocop": {
+      "@disable": false,
+      "args": [
+        "--force-exclusion",
+        "--config", ".rubocop.yml"
+      ],
+      "use_bundle_exec": true
+    }
+  },
+
+  "paths": {
+    "linux": [
+      "~/.rbenv/shims"
+    ],
+    "osx": [
+      "~/.rbenv/shims"
+    ],
+    "windows": []
+  },
+
+  "lint_mode": "load_save"
+}
